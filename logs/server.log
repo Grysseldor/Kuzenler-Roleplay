@@ -1,0 +1,881 @@
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Kuzenler Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2025-10-06 00:08:03] Compacting accounts database 'internal.db' ...
+[2025-10-06 00:08:03] Resources: 144 loaded, 0 failed
+[2025-10-06 00:08:03] Compacting database 'registry.db' ...
+[2025-10-06 00:08:03] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2025-10-06 00:08:03] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2025-10-06 00:08:03] Starting resources...
+[2025-10-06 00:08:03] INFO: [MYSQL] Attempting connection to kuzenlerrp on localhost
+[2025-10-06 00:08:05] INFO: [MYSQL] createConnection / kuzenlerrp / OK
+[2025-10-06 00:08:05] ERROR: mysql\migrations.lua:16: attempt to index local 'db' (a userdata value)
+[2025-10-06 00:08:05] INFO: -- MySQL Module Connection: 
+[2025-10-06 00:08:07] INFO: -- OK
+[2025-10-06 00:08:07] Server minclientversion is now 1.6.0-9.23324.0
+[2025-10-06 00:08:07] INFO: [MYSQL] Attempting connection to core on localhost
+[2025-10-06 00:08:09] WARNING: mysql\mysql.lua:106: Bad usage @ 'dbConnect' [Access denied for user 'root'@'127.0.0.1' (using password: YES)]
+[2025-10-06 00:08:09] INFO: [MYSQL] reconnectConnection / core / FAILED
+[2025-10-06 00:08:09] WARNING: cache\usernames_s.lua:181: Bad argument @ 'dbQuery' [Expected db-connection at argument 2, got boolean]
+[2025-10-06 00:08:11] INFO: [MYSQL] Attempting connection to core on localhost
+[2025-10-06 00:08:11] WARNING: mysql\mysql.lua:106: Bad usage @ 'dbConnect' [Access denied for user 'root'@'127.0.0.1' (using password: YES)]
+[2025-10-06 00:08:11] INFO: [MYSQL] reconnectConnection / core / FAILED
+[2025-10-06 00:08:11] WARNING: bans\ban_s.lua:654: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got boolean]
+[2025-10-06 00:08:11] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2025-10-06 00:08:11] INFO: Loaded 0 reports.
+[2025-10-06 00:08:11] Please wait...
+[2025-10-06 00:08:11] Please wait...
+[2025-10-06 00:08:12] ERROR: mysql\migrations.lua:39: attempt to index local 'db' (a userdata value)
+[2025-10-06 00:08:12] ERROR: [interior]\interior_system\s_settings.lua:10: call: failed to call 'mysql:createMigrations' [string "?"]
+[2025-10-06 00:08:12] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2025-10-06 00:08:12] INFO: item-texture: Loading textures for 0 world items
+[2025-10-06 00:08:12] INFO: item-texture: 0 clients waiting on initial sync.
+[2025-10-06 00:08:12] INFO: item-texture: 0 textured elements were added for initial sync.
+[2025-10-06 00:08:12] ERROR: mysql\migrations.lua:39: attempt to index local 'db' (a userdata value)
+[2025-10-06 00:08:12] ERROR: mdc\migrations.lua:6: call: failed to call 'mysql:createMigrations' [string "?"]
+[2025-10-06 00:08:12] INFO: Loaded 0 pilot licenses in 1ms.
+[2025-10-06 00:08:12] WARNING: mdc\mdc.lua:59: dbPoll failed; Unknown column 'a.doneby' in 'ON'
+[2025-10-06 00:08:12] ERROR: mysql\migrations.lua:39: attempt to index local 'db' (a userdata value)
+[2025-10-06 00:08:12] ERROR: npc\s_migrations.lua:6: call: failed to call 'mysql:createMigrations' [string "?"]
+[2025-10-06 00:08:12] ERROR: mysql\migrations.lua:39: attempt to index local 'db' (a userdata value)
+[2025-10-06 00:08:12] ERROR: [vehicle]\vehicle_manager\s_vehicle_manager.lua:17: call: failed to call 'mysql:createMigrations' [string "?"]
+[2025-10-06 00:08:12] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 00:08:12] SCRIPT ERROR: dancer-system\s_dancers.lua:60: <name> or '...' expected near '`'
+[2025-10-06 00:08:12] ERROR: Loading script failed: dancer-system\s_dancers.lua:60: <name> or '...' expected near '`'
+[2025-10-06 00:08:12] WARNING: advertisements/utils/browser_manager_c.lua(Line 46) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 00:08:12] INFO: Loaded 0 texture records for all interiors in 0ms
+[2025-10-06 00:08:12] INFO: LeFire Script loaded ...
+[2025-10-06 00:08:12] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2025-10-06 00:08:12] INFO: Loaded 0 animated texture records in 1ms
+[2025-10-06 00:08:12] Authorized serial account protection is DISABLED. See http://multitheftauto.com/authserial
+[2025-10-06 00:08:12] Server started and is ready to accept connections!
+[2025-10-06 00:08:12] To stop the server, type 'shutdown' or press Ctrl-C
+[2025-10-06 00:08:12] Type 'help' for a list of commands.
+[2025-10-06 00:08:12] INFO: [ELEVATOR] Spawning 0 elevators will be finished in approx. 0 seconds.
+[2025-10-06 00:08:12] INFO: [TRUCKER] Refreshed 0 orders.
+[2025-10-06 00:08:12] INFO: [CLOTHES] Server / Loaded 0 clothing items
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2025-10-06 00:26:15] Compacting accounts database 'internal.db' ...
+[2025-10-06 00:26:15] Resources: 144 loaded, 0 failed
+[2025-10-06 00:26:15] Compacting database 'registry.db' ...
+[2025-10-06 00:26:15] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2025-10-06 00:26:15] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2025-10-06 00:26:15] Starting resources...
+[2025-10-06 00:26:17] INFO: [MYSQL] createConnection / mta / OK
+[2025-10-06 00:26:17] INFO: -- MySQL Module Connection: 
+[2025-10-06 00:26:19] INFO: -- OK
+[2025-10-06 00:26:19] WARNING: data/json.lua(Line 3) [Server] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 00:26:19] WARNING: data/json.lua(Line 8) [Server] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 00:26:19] WARNING: data/json.lua(Line 3) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 00:26:19] WARNING: data/json.lua(Line 8) [Client] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 00:26:19] Server minclientversion is now 1.5.7-9.20324.0
+[2025-10-06 00:26:21] INFO: [MYSQL] reconnectConnection / core / OK
+[2025-10-06 00:26:21] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2025-10-06 00:26:21] INFO: Loaded 0 reports.
+[2025-10-06 00:26:22] Please wait...
+[2025-10-06 00:26:22] Please wait...
+[2025-10-06 00:26:22] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2025-10-06 00:26:22] INFO: item-texture: Loading textures for 0 world items
+[2025-10-06 00:26:22] INFO: item-texture: 0 clients waiting on initial sync.
+[2025-10-06 00:26:22] INFO: item-texture: 0 textured elements were added for initial sync.
+[2025-10-06 00:26:22] INFO: Loaded 0 pilot licenses in 0ms.
+[2025-10-06 00:26:22] WARNING: mdc\mdc.lua:59: dbPoll failed; Table 'mta.mdc_anpr' doesn't exist
+[2025-10-06 00:26:22] WARNING: realism/head_sync/head_sync_c.lua(Line 32) [Client] isPedOnFire is deprecated and may not work in future versions. Please replace with isElementOnFire.
+[2025-10-06 00:26:22] WARNING: realism/c_heli_rotors.lua(Line 5) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 00:26:22] WARNING: realism/c_heli_rotors.lua(Line 6) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 00:26:22] WARNING: realism/c_heli_rotors.lua(Line 7) [Client] setHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with setVehicleRotorSpeed.
+[2025-10-06 00:26:22] Some files in 'realism' use deprecated functions.
+[2025-10-06 00:26:22] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2025-10-06 00:26:22] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 00:26:22] INFO: MYSQL ERROR 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'offset FROM dancers' at line 1
+[2025-10-06 00:26:22] WARNING: advertisements/utils/browser_manager_c.lua(Line 46) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 00:26:22] INFO: Loaded 0 texture records for all interiors in 0ms
+[2025-10-06 00:26:22] INFO: LeFire Script loaded ...
+[2025-10-06 00:26:22] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2025-10-06 00:26:22] INFO: Loaded 0 animated texture records in 0ms
+[2025-10-06 00:26:22] Authorized serial account protection is DISABLED. See http://multitheftauto.com/authserial
+[2025-10-06 00:26:22] Server started and is ready to accept connections!
+[2025-10-06 00:26:22] To stop the server, type 'shutdown' or press Ctrl-C
+[2025-10-06 00:26:22] Type 'help' for a list of commands.
+[2025-10-06 00:26:22] INFO: [ELEVATOR] Spawning 0 elevators will be finished in approx. 0 seconds.
+[2025-10-06 00:26:22] [ Migration ] interior_system: 1
+[2025-10-06 00:26:22] [ Migration ] interior_system: 2
+[2025-10-06 00:26:22] [ Migration ] interior_system: 3
+[2025-10-06 00:26:22] INFO: [TRUCKER] Refreshed 0 orders.
+[2025-10-06 00:26:22] [ Migration ] mdc: 1
+[2025-10-06 00:26:22] [ Migration ] npc: 1
+[2025-10-06 00:26:22] [ Migration ] vehicle_manager: 1
+[2025-10-06 00:26:22] INFO: [CLOTHES] Server / Loaded 0 clothing items
+[2025-10-06 00:26:22] WARNING: mysql\migrations.lua:24: dbExec failed; (1060) Duplicate column name 'settings'
+[2025-10-06 00:26:22] WARNING: mysql\migrations.lua:24: dbExec failed; (1060) Duplicate column name 'settings'
+[2025-10-06 00:26:22] WARNING: mysql\migrations.lua:24: dbExec failed; (1060) Duplicate column name 'deletedDate'
+[2025-10-06 00:26:28] WARNING: mysql\migrations.lua:24: dbExec failed; (1060) Duplicate column name 'deletedDate'
+[2025-10-06 00:26:53] Server minclientversion is now 1.6.0-9.23324.0
+[2025-10-06 00:26:53] CONNECT: Grysseldor connected (IP: 192.168.9.249  Serial: 93DF1DB47281BFB61081853C9F8062B2  Version: 1.6.0-9.23324.0)
+[2025-10-06 00:26:53] JOIN: Grysseldor joined the game (IP: 192.168.9.249)
+[2025-10-06 00:26:53] NICK: Grysseldor is now known as Owl.Player.5742
+[2025-10-06 00:27:20] ERROR: account\login-panel\server.lua:385: attempt to concatenate field 'error' (a nil value)
+[2025-10-06 00:35:19] restart: Requested by Console
+[2025-10-06 00:35:19] restart: Resource 'mysql' could not be restarted as it is protected
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2025-10-06 00:35:26] Compacting accounts database 'internal.db' ...
+[2025-10-06 00:35:27] Resources: 144 loaded, 0 failed
+[2025-10-06 00:35:27] Compacting database 'registry.db' ...
+[2025-10-06 00:35:27] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2025-10-06 00:35:27] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2025-10-06 00:35:27] Starting resources...
+[2025-10-06 00:35:29] INFO: [MYSQL] createConnection / mta / OK
+[2025-10-06 00:35:29] INFO: -- MySQL Module Connection: 
+[2025-10-06 00:35:31] INFO: -- OK
+[2025-10-06 00:35:31] WARNING: data/json.lua(Line 3) [Server] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 00:35:31] WARNING: data/json.lua(Line 8) [Server] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 00:35:31] WARNING: data/json.lua(Line 3) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 00:35:31] WARNING: data/json.lua(Line 8) [Client] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 00:35:31] Server minclientversion is now 1.6.0-9.23324.0
+[2025-10-06 00:35:33] INFO: [MYSQL] reconnectConnection / core / OK
+[2025-10-06 00:35:33] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2025-10-06 00:35:33] INFO: Loaded 0 reports.
+[2025-10-06 00:35:33] Please wait...
+[2025-10-06 00:35:33] Please wait...
+[2025-10-06 00:35:33] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2025-10-06 00:35:33] INFO: item-texture: Loading textures for 0 world items
+[2025-10-06 00:35:33] INFO: item-texture: 0 clients waiting on initial sync.
+[2025-10-06 00:35:33] INFO: item-texture: 0 textured elements were added for initial sync.
+[2025-10-06 00:35:33] INFO: Loaded 0 pilot licenses in 0ms.
+[2025-10-06 00:35:33] WARNING: mdc\mdc.lua:59: dbPoll failed; Table 'mta.mdc_anpr' doesn't exist
+[2025-10-06 00:35:33] WARNING: realism/head_sync/head_sync_c.lua(Line 32) [Client] isPedOnFire is deprecated and may not work in future versions. Please replace with isElementOnFire.
+[2025-10-06 00:35:33] WARNING: realism/c_heli_rotors.lua(Line 5) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 00:35:33] WARNING: realism/c_heli_rotors.lua(Line 6) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 00:35:33] WARNING: realism/c_heli_rotors.lua(Line 7) [Client] setHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with setVehicleRotorSpeed.
+[2025-10-06 00:35:33] Some files in 'realism' use deprecated functions.
+[2025-10-06 00:35:33] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2025-10-06 00:35:33] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 00:35:33] INFO: MYSQL ERROR 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'offset FROM dancers' at line 1
+[2025-10-06 00:35:34] WARNING: advertisements/utils/browser_manager_c.lua(Line 46) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 00:35:34] INFO: Loaded 0 texture records for all interiors in 0ms
+[2025-10-06 00:35:34] INFO: LeFire Script loaded ...
+[2025-10-06 00:35:34] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2025-10-06 00:35:34] INFO: Loaded 0 animated texture records in 0ms
+[2025-10-06 00:35:34] Authorized serial account protection is DISABLED. See http://multitheftauto.com/authserial
+[2025-10-06 00:35:34] Server started and is ready to accept connections!
+[2025-10-06 00:35:34] To stop the server, type 'shutdown' or press Ctrl-C
+[2025-10-06 00:35:34] Type 'help' for a list of commands.
+[2025-10-06 00:35:34] INFO: [ELEVATOR] Spawning 0 elevators will be finished in approx. 0 seconds.
+[2025-10-06 00:35:34] INFO: [TRUCKER] Refreshed 0 orders.
+[2025-10-06 00:35:34] INFO: [CLOTHES] Server / Loaded 0 clothing items
+[2025-10-06 00:36:21] CONNECT: Grysseldor connected (IP: 192.168.9.249  Serial: 93DF1DB47281BFB61081853C9F8062B2  Version: 1.6.0-9.23324.0)
+[2025-10-06 00:36:27] JOIN: Grysseldor joined the game (IP: 192.168.9.249)
+[2025-10-06 00:36:27] NICK: Grysseldor is now known as Owl.Player.1574
+[2025-10-06 00:50:33] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 01:00:33] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 01:00:33] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 01:00:33] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 01:00:33] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 01:05:33] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 01:05:33] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 01:20:33] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 01:35:33] INFO: WORLDSAVE INCOMING
+[2025-10-06 01:35:33] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 01:35:33] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 01:35:33] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 01:35:33] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 01:35:33] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 01:50:33] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 01:54:05] QUIT: Owl.Player.1574 left the game [Quit] 
+[2025-10-06 01:54:05] INFO: [Phone] Owl.Player.1574 triggered cancelPhoneCall / Quit / 0
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2025-10-06 01:54:13] Compacting accounts database 'internal.db' ...
+[2025-10-06 01:54:14] Resources: 144 loaded, 0 failed
+[2025-10-06 01:54:14] Compacting database 'registry.db' ...
+[2025-10-06 01:54:14] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2025-10-06 01:54:14] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2025-10-06 01:54:14] Starting resources...
+[2025-10-06 01:54:16] INFO: [MYSQL] createConnection / mta / OK
+[2025-10-06 01:54:16] INFO: -- MySQL Module Connection: 
+[2025-10-06 01:54:18] INFO: -- OK
+[2025-10-06 01:54:18] WARNING: data/json.lua(Line 3) [Server] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:54:18] WARNING: data/json.lua(Line 8) [Server] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:54:18] WARNING: data/json.lua(Line 3) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:54:18] WARNING: data/json.lua(Line 8) [Client] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:54:18] Server minclientversion is now 1.6.0-9.23324.0
+[2025-10-06 01:54:20] INFO: [MYSQL] reconnectConnection / core / OK
+[2025-10-06 01:54:20] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2025-10-06 01:54:20] INFO: Loaded 0 reports.
+[2025-10-06 01:54:20] Please wait...
+[2025-10-06 01:54:20] Please wait...
+[2025-10-06 01:54:20] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2025-10-06 01:54:20] INFO: item-texture: Loading textures for 0 world items
+[2025-10-06 01:54:20] INFO: item-texture: 0 clients waiting on initial sync.
+[2025-10-06 01:54:20] INFO: item-texture: 0 textured elements were added for initial sync.
+[2025-10-06 01:54:20] INFO: Loaded 0 pilot licenses in 0ms.
+[2025-10-06 01:54:20] WARNING: mdc\mdc.lua:59: dbPoll failed; Table 'mta.mdc_anpr' doesn't exist
+[2025-10-06 01:54:20] WARNING: realism/head_sync/head_sync_c.lua(Line 32) [Client] isPedOnFire is deprecated and may not work in future versions. Please replace with isElementOnFire.
+[2025-10-06 01:54:20] WARNING: realism/c_heli_rotors.lua(Line 5) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 01:54:20] WARNING: realism/c_heli_rotors.lua(Line 6) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 01:54:20] WARNING: realism/c_heli_rotors.lua(Line 7) [Client] setHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with setVehicleRotorSpeed.
+[2025-10-06 01:54:20] Some files in 'realism' use deprecated functions.
+[2025-10-06 01:54:20] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2025-10-06 01:54:21] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 01:54:21] INFO: MYSQL ERROR 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'offset FROM dancers' at line 1
+[2025-10-06 01:54:21] WARNING: advertisements/utils/browser_manager_c.lua(Line 46) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:54:21] INFO: Loaded 0 texture records for all interiors in 0ms
+[2025-10-06 01:54:21] INFO: LeFire Script loaded ...
+[2025-10-06 01:54:21] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2025-10-06 01:54:21] INFO: Loaded 0 animated texture records in 0ms
+[2025-10-06 01:54:21] Authorized serial account protection is DISABLED. See http://multitheftauto.com/authserial
+[2025-10-06 01:54:21] Server started and is ready to accept connections!
+[2025-10-06 01:54:21] To stop the server, type 'shutdown' or press Ctrl-C
+[2025-10-06 01:54:21] Type 'help' for a list of commands.
+[2025-10-06 01:54:21] INFO: [ELEVATOR] Spawning 0 elevators will be finished in approx. 0 seconds.
+[2025-10-06 01:54:21] INFO: [TRUCKER] Refreshed 0 orders.
+[2025-10-06 01:54:21] INFO: [CLOTHES] Server / Loaded 0 clothing items
+[2025-10-06 01:54:34] CONNECT: Grysseldor connected (IP: 192.168.9.249  Serial: 93DF1DB47281BFB61081853C9F8062B2  Version: 1.6.0-9.23324.0)
+[2025-10-06 01:54:35] JOIN: Grysseldor joined the game (IP: 192.168.9.249)
+[2025-10-06 01:54:35] NICK: Grysseldor is now known as Owl.Player.1574
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2025-10-06 01:56:01] Compacting accounts database 'internal.db' ...
+[2025-10-06 01:56:01] Resources: 144 loaded, 0 failed
+[2025-10-06 01:56:01] Compacting database 'registry.db' ...
+[2025-10-06 01:56:01] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2025-10-06 01:56:01] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2025-10-06 01:56:01] Starting resources...
+[2025-10-06 01:56:03] INFO: [MYSQL] createConnection / mta / OK
+[2025-10-06 01:56:03] INFO: -- MySQL Module Connection: 
+[2025-10-06 01:56:05] INFO: -- OK
+[2025-10-06 01:56:05] WARNING: data/json.lua(Line 3) [Server] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:56:05] WARNING: data/json.lua(Line 8) [Server] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:56:05] WARNING: data/json.lua(Line 3) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:56:05] WARNING: data/json.lua(Line 8) [Client] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:56:05] Server minclientversion is now 1.6.0-9.23324.0
+[2025-10-06 01:56:07] INFO: [MYSQL] reconnectConnection / core / OK
+[2025-10-06 01:56:07] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2025-10-06 01:56:07] INFO: Loaded 0 reports.
+[2025-10-06 01:56:08] Please wait...
+[2025-10-06 01:56:08] Please wait...
+[2025-10-06 01:56:08] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2025-10-06 01:56:08] INFO: item-texture: Loading textures for 0 world items
+[2025-10-06 01:56:08] INFO: item-texture: 0 clients waiting on initial sync.
+[2025-10-06 01:56:08] INFO: item-texture: 0 textured elements were added for initial sync.
+[2025-10-06 01:56:08] INFO: Loaded 0 pilot licenses in 1ms.
+[2025-10-06 01:56:08] WARNING: mdc\mdc.lua:59: dbPoll failed; Table 'mta.mdc_anpr' doesn't exist
+[2025-10-06 01:56:08] WARNING: realism/head_sync/head_sync_c.lua(Line 32) [Client] isPedOnFire is deprecated and may not work in future versions. Please replace with isElementOnFire.
+[2025-10-06 01:56:08] WARNING: realism/c_heli_rotors.lua(Line 5) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 01:56:08] WARNING: realism/c_heli_rotors.lua(Line 6) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 01:56:08] WARNING: realism/c_heli_rotors.lua(Line 7) [Client] setHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with setVehicleRotorSpeed.
+[2025-10-06 01:56:08] Some files in 'realism' use deprecated functions.
+[2025-10-06 01:56:08] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2025-10-06 01:56:08] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 01:56:08] INFO: MYSQL ERROR 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'offset FROM dancers' at line 1
+[2025-10-06 01:56:08] WARNING: advertisements/utils/browser_manager_c.lua(Line 46) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:56:08] INFO: Loaded 0 texture records for all interiors in 0ms
+[2025-10-06 01:56:08] INFO: LeFire Script loaded ...
+[2025-10-06 01:56:08] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2025-10-06 01:56:08] INFO: Loaded 0 animated texture records in 0ms
+[2025-10-06 01:56:08] Authorized serial account protection is DISABLED. See http://multitheftauto.com/authserial
+[2025-10-06 01:56:08] Server started and is ready to accept connections!
+[2025-10-06 01:56:08] To stop the server, type 'shutdown' or press Ctrl-C
+[2025-10-06 01:56:08] Type 'help' for a list of commands.
+[2025-10-06 01:56:08] INFO: [ELEVATOR] Spawning 0 elevators will be finished in approx. 0 seconds.
+[2025-10-06 01:56:08] INFO: [TRUCKER] Refreshed 0 orders.
+[2025-10-06 01:56:08] INFO: [CLOTHES] Server / Loaded 0 clothing items
+[2025-10-06 01:56:24] CONNECT: Grysseldor connected (IP: 192.168.9.249  Serial: 93DF1DB47281BFB61081853C9F8062B2  Version: 1.6.0-9.23324.0)
+[2025-10-06 01:56:24] JOIN: Grysseldor joined the game (IP: 192.168.9.249)
+[2025-10-06 01:56:24] NICK: Grysseldor is now known as Owl.Player.1574
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2025-10-06 01:58:23] Compacting accounts database 'internal.db' ...
+[2025-10-06 01:58:24] Resources: 144 loaded, 0 failed
+[2025-10-06 01:58:24] Compacting database 'registry.db' ...
+[2025-10-06 01:58:24] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2025-10-06 01:58:24] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2025-10-06 01:58:24] Starting resources...
+[2025-10-06 01:58:26] INFO: [MYSQL] createConnection / mta / OK
+[2025-10-06 01:58:26] INFO: -- MySQL Module Connection: 
+[2025-10-06 01:58:28] INFO: -- OK
+[2025-10-06 01:58:28] WARNING: data/json.lua(Line 3) [Server] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:58:28] WARNING: data/json.lua(Line 8) [Server] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:58:28] WARNING: data/json.lua(Line 3) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:58:28] WARNING: data/json.lua(Line 8) [Client] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:58:28] Server minclientversion is now 1.6.0-9.23324.0
+[2025-10-06 01:58:30] INFO: [MYSQL] reconnectConnection / core / OK
+[2025-10-06 01:58:30] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2025-10-06 01:58:30] INFO: Loaded 0 reports.
+[2025-10-06 01:58:30] Please wait...
+[2025-10-06 01:58:30] Please wait...
+[2025-10-06 01:58:30] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2025-10-06 01:58:30] INFO: item-texture: Loading textures for 0 world items
+[2025-10-06 01:58:30] INFO: item-texture: 0 clients waiting on initial sync.
+[2025-10-06 01:58:30] INFO: item-texture: 0 textured elements were added for initial sync.
+[2025-10-06 01:58:30] INFO: Loaded 0 pilot licenses in 0ms.
+[2025-10-06 01:58:30] WARNING: mdc\mdc.lua:59: dbPoll failed; Table 'mta.mdc_anpr' doesn't exist
+[2025-10-06 01:58:30] WARNING: realism/head_sync/head_sync_c.lua(Line 32) [Client] isPedOnFire is deprecated and may not work in future versions. Please replace with isElementOnFire.
+[2025-10-06 01:58:30] WARNING: realism/c_heli_rotors.lua(Line 5) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 01:58:30] WARNING: realism/c_heli_rotors.lua(Line 6) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 01:58:30] WARNING: realism/c_heli_rotors.lua(Line 7) [Client] setHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with setVehicleRotorSpeed.
+[2025-10-06 01:58:30] Some files in 'realism' use deprecated functions.
+[2025-10-06 01:58:30] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2025-10-06 01:58:31] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 01:58:31] INFO: MYSQL ERROR 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'offset FROM dancers' at line 1
+[2025-10-06 01:58:31] WARNING: advertisements/utils/browser_manager_c.lua(Line 46) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 01:58:31] INFO: Loaded 0 texture records for all interiors in 0ms
+[2025-10-06 01:58:31] INFO: LeFire Script loaded ...
+[2025-10-06 01:58:31] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2025-10-06 01:58:31] INFO: Loaded 0 animated texture records in 0ms
+[2025-10-06 01:58:31] Authorized serial account protection is DISABLED. See http://multitheftauto.com/authserial
+[2025-10-06 01:58:31] Server started and is ready to accept connections!
+[2025-10-06 01:58:31] To stop the server, type 'shutdown' or press Ctrl-C
+[2025-10-06 01:58:31] Type 'help' for a list of commands.
+[2025-10-06 01:58:31] INFO: [ELEVATOR] Spawning 0 elevators will be finished in approx. 0 seconds.
+[2025-10-06 01:58:31] INFO: [TRUCKER] Refreshed 0 orders.
+[2025-10-06 01:58:31] INFO: [CLOTHES] Server / Loaded 0 clothing items
+[2025-10-06 01:58:48] CONNECT: Grysseldor connected (IP: 192.168.9.249  Serial: 93DF1DB47281BFB61081853C9F8062B2  Version: 1.6.0-9.23324.0)
+[2025-10-06 01:58:48] JOIN: Grysseldor joined the game (IP: 192.168.9.249)
+[2025-10-06 01:58:48] NICK: Grysseldor is now known as Owl.Player.1574
+[2025-10-06 01:59:12] ERROR: account\login-panel\server.lua:385: attempt to concatenate field 'error' (a nil value)
+[2025-10-06 02:00:31] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 02:00:31] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 02:00:31] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 02:00:31] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 02:13:31] INFO: Server: Fetched 0 stations from db.
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : OwlGaming Roleplay ♦ Your World. Your Imagination. ♦ owlgaming.net
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 1024
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : None
+==================================================================
+[2025-10-06 02:13:55] Compacting accounts database 'internal.db' ...
+[2025-10-06 02:13:55] Resources: 144 loaded, 0 failed
+[2025-10-06 02:13:55] Compacting database 'registry.db' ...
+[2025-10-06 02:13:55] MODULE: Loaded "MySQL 5.0 database module" (0.50) by "Alberto Alonso <rydencillo@gmail.com>"
+[2025-10-06 02:13:55] MODULE: Loaded "bcrypt Module" (1.00) by "mabako"
+[2025-10-06 02:13:55] Starting resources...
+[2025-10-06 02:13:57] INFO: [MYSQL] createConnection / mta / OK
+[2025-10-06 02:13:57] INFO: -- MySQL Module Connection: 
+[2025-10-06 02:13:59] INFO: -- OK
+[2025-10-06 02:13:59] WARNING: data/json.lua(Line 3) [Server] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 02:13:59] WARNING: data/json.lua(Line 8) [Server] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 02:13:59] WARNING: data/json.lua(Line 3) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 02:13:59] WARNING: data/json.lua(Line 8) [Client] base64Decode no longer works. Please manually change this to decodeString (different syntax). Refer to the wiki for details
+[2025-10-06 02:13:59] Server minclientversion is now 1.6.0-9.23324.0
+[2025-10-06 02:14:01] INFO: [MYSQL] reconnectConnection / core / OK
+[2025-10-06 02:14:01] WARNING: account\s_main.lua:41: Attempt to restart a stopped resource
+[2025-10-06 02:14:02] INFO: Loaded 0 reports.
+[2025-10-06 02:14:02] Please wait...
+[2025-10-06 02:14:02] Please wait...
+[2025-10-06 02:14:02] INFO: Deleting all unprotected 30+ days old exterior items (mode 2)
+[2025-10-06 02:14:02] INFO: item-texture: Loading textures for 0 world items
+[2025-10-06 02:14:02] INFO: item-texture: 0 clients waiting on initial sync.
+[2025-10-06 02:14:02] INFO: item-texture: 0 textured elements were added for initial sync.
+[2025-10-06 02:14:02] INFO: Loaded 0 pilot licenses in 0ms.
+[2025-10-06 02:14:02] WARNING: mdc\mdc.lua:59: dbPoll failed; Table 'mta.mdc_anpr' doesn't exist
+[2025-10-06 02:14:02] WARNING: realism/head_sync/head_sync_c.lua(Line 32) [Client] isPedOnFire is deprecated and may not work in future versions. Please replace with isElementOnFire.
+[2025-10-06 02:14:02] WARNING: realism/c_heli_rotors.lua(Line 5) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 02:14:02] WARNING: realism/c_heli_rotors.lua(Line 6) [Client] getHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with getVehicleRotorSpeed.
+[2025-10-06 02:14:02] WARNING: realism/c_heli_rotors.lua(Line 7) [Client] setHelicopterRotorSpeed is deprecated and may not work in future versions. Please replace with setVehicleRotorSpeed.
+[2025-10-06 02:14:02] Some files in 'realism' use deprecated functions.
+[2025-10-06 02:14:02] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2025-10-06 02:14:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 02:14:02] INFO: MYSQL ERROR 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'offset FROM dancers' at line 1
+[2025-10-06 02:14:02] WARNING: advertisements/utils/browser_manager_c.lua(Line 46) [Client] base64Encode no longer works. Please manually change this to encodeString (different syntax). Refer to the wiki for details
+[2025-10-06 02:14:02] INFO: Loaded 0 texture records for all interiors in 0ms
+[2025-10-06 02:14:02] INFO: LeFire Script loaded ...
+[2025-10-06 02:14:02] INFO: PRISON-SYSTEM: Loaded 24 cell gates from s_gates.lua
+[2025-10-06 02:14:02] INFO: Loaded 0 animated texture records in 0ms
+[2025-10-06 02:14:02] Authorized serial account protection is DISABLED. See http://multitheftauto.com/authserial
+[2025-10-06 02:14:02] Server started and is ready to accept connections!
+[2025-10-06 02:14:02] To stop the server, type 'shutdown' or press Ctrl-C
+[2025-10-06 02:14:02] Type 'help' for a list of commands.
+[2025-10-06 02:14:02] INFO: [ELEVATOR] Spawning 0 elevators will be finished in approx. 0 seconds.
+[2025-10-06 02:14:02] INFO: [TRUCKER] Refreshed 0 orders.
+[2025-10-06 02:14:02] INFO: [CLOTHES] Server / Loaded 0 clothing items
+[2025-10-06 02:14:18] CONNECT: Grysseldor connected (IP: 192.168.9.249  Serial: 93DF1DB47281BFB61081853C9F8062B2  Version: 1.6.0-9.23324.0)
+[2025-10-06 02:14:18] JOIN: Grysseldor joined the game (IP: 192.168.9.249)
+[2025-10-06 02:14:18] NICK: Grysseldor is now known as Owl.Player.1574
+[2025-10-06 02:14:57] ERROR: account\login-panel\server.lua:385: attempt to concatenate field 'error' (a nil value)
+[2025-10-06 02:21:38] NICK: Owl.Player.1574 is now known as Memati_Alemdar
+[2025-10-06 02:25:06] QUIT: Memati_Alemdar left the game [Quit] 
+[2025-10-06 02:25:06] INFO: [Phone] Memati_Alemdar triggered cancelPhoneCall / Quit / 0
+[2025-10-06 02:29:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 02:44:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 02:44:08] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 02:50:46] CONNECT: Grysseldor connected (IP: 192.168.9.249  Serial: 93DF1DB47281BFB61081853C9F8062B2  Version: 1.6.0-9.23324.0)
+[2025-10-06 02:50:46] JOIN: Grysseldor joined the game (IP: 192.168.9.249)
+[2025-10-06 02:50:46] NICK: Grysseldor is now known as Owl.Player.5677
+[2025-10-06 02:59:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 03:00:02] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 03:00:02] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 03:00:02] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 03:00:02] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 03:00:19] restart: Requested by Console
+[2025-10-06 03:00:19] restart: Resource 'account' restarting...
+[2025-10-06 03:00:19] Stopping account
+[2025-10-06 03:00:19] Resource 'account' changed, reloading and starting
+[2025-10-06 03:00:19] Starting account
+[2025-10-06 03:00:19] NICK: Owl.Player.5677 is now known as Owl.Player.1380
+[2025-10-06 03:00:19] account restarted successfully
+[2025-10-06 03:00:19] Stopping apps
+[2025-10-06 03:00:19] Starting apps
+[2025-10-06 03:00:19] apps restarted successfully
+[2025-10-06 03:00:55] NICK: Owl.Player.1380 is now known as Memati_Alemdar
+[2025-10-06 03:14:02] INFO: WORLDSAVE INCOMING
+[2025-10-06 03:14:02] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 03:14:02] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 03:14:02] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 03:14:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 03:14:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 03:15:06] INFO: [FREECAM] asyncActivateFreecam / Ran
+[2025-10-06 03:15:11] INFO: [FREECAM] asyncDeactivateFreecam / Ran
+[2025-10-06 03:18:17] restart: Requested by Console
+[2025-10-06 03:18:17] restart: Resource 'account' restarting...
+[2025-10-06 03:18:17] Stopping account
+[2025-10-06 03:18:17] Resource 'account' changed, reloading and starting
+[2025-10-06 03:18:17] Starting account
+[2025-10-06 03:18:17] account restarted successfully
+[2025-10-06 03:18:17] Stopping apps
+[2025-10-06 03:18:17] Starting apps
+[2025-10-06 03:18:17] apps restarted successfully
+[2025-10-06 03:18:17] ERROR: account\s_login.lua:61: Bad argument @ 'setElementData' [Expected client-trust-mode at argument 5, got boolean]
+[2025-10-06 03:18:43] stop: Requested by Console
+[2025-10-06 03:18:43] stop: Resource 'account' stopping...
+[2025-10-06 03:18:43] Stopping account
+[2025-10-06 03:18:55] stop: Requested by Console
+[2025-10-06 03:18:55] stop: Resource 'account' is not running
+[2025-10-06 03:19:01] start: Requested by Console
+[2025-10-06 03:19:01] Starting account
+[2025-10-06 03:19:01] start: Resource 'account' started
+[2025-10-06 03:19:01] Stopping apps
+[2025-10-06 03:19:01] Starting apps
+[2025-10-06 03:19:01] apps restarted successfully
+[2025-10-06 03:19:01] ERROR: account\s_login.lua:61: Bad argument @ 'setElementData' [Expected client-trust-mode at argument 5, got boolean]
+[2025-10-06 03:20:34] restart: Requested by Console
+[2025-10-06 03:20:34] restart: Resource 'scoreboard' restarting...
+[2025-10-06 03:20:34] Stopping scoreboard
+[2025-10-06 03:20:34] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 03:20:34] Starting scoreboard
+[2025-10-06 03:20:34] scoreboard restarted successfully
+[2025-10-06 03:20:38] start: Requested by Console
+[2025-10-06 03:20:38] start: Resource 'account' is already running
+[2025-10-06 03:29:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 03:42:04] restart: Requested by Console
+[2025-10-06 03:42:04] restart: Resource 'scoreboard' restarting...
+[2025-10-06 03:42:04] Stopping scoreboard
+[2025-10-06 03:42:04] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 03:42:04] Starting scoreboard
+[2025-10-06 03:42:04] scoreboard restarted successfully
+[2025-10-06 03:42:24] restart: Requested by Console
+[2025-10-06 03:42:24] restart: Resource 'scoreboard' restarting...
+[2025-10-06 03:42:24] Stopping scoreboard
+[2025-10-06 03:42:24] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 03:42:24] Starting scoreboard
+[2025-10-06 03:42:24] scoreboard restarted successfully
+[2025-10-06 03:44:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 03:44:08] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 03:44:44] restart: Requested by Console
+[2025-10-06 03:44:44] restart: Resource 'scoreboard' restarting...
+[2025-10-06 03:44:44] Stopping scoreboard
+[2025-10-06 03:44:44] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 03:44:44] Starting scoreboard
+[2025-10-06 03:44:44] scoreboard restarted successfully
+[2025-10-06 03:48:40] restart: Requested by Console
+[2025-10-06 03:48:40] restart: Resource 'scoreboard' restarting...
+[2025-10-06 03:48:40] Stopping scoreboard
+[2025-10-06 03:48:40] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 03:48:40] Starting scoreboard
+[2025-10-06 03:48:40] scoreboard restarted successfully
+[2025-10-06 03:51:36] QUIT: Memati_Alemdar left the game [Quit] 
+[2025-10-06 03:51:36] INFO: [Phone] Memati_Alemdar triggered cancelPhoneCall / Quit / 0
+[2025-10-06 03:51:42] CONNECT: Grysseldor connected (IP: 192.168.9.249  Serial: 93DF1DB47281BFB61081853C9F8062B2  Version: 1.6.0-9.23324.0)
+[2025-10-06 03:51:42] JOIN: Grysseldor joined the game (IP: 192.168.9.249)
+[2025-10-06 03:51:42] NICK: Grysseldor is now known as Owl.Player.4199
+[2025-10-06 03:52:10] QUIT: Owl.Player.4199 left the game [Quit] 
+[2025-10-06 03:52:10] INFO: [Phone] Owl.Player.4199 triggered cancelPhoneCall / Quit / 0
+[2025-10-06 03:52:10] CONNECT: Grysseldor connected (IP: 192.168.9.249  Serial: 93DF1DB47281BFB61081853C9F8062B2  Version: 1.6.0-9.23324.0)
+[2025-10-06 03:52:11] JOIN: Grysseldor joined the game (IP: 192.168.9.249)
+[2025-10-06 03:52:11] NICK: Grysseldor is now known as Owl.Player.5343
+[2025-10-06 03:52:34] NICK: Owl.Player.5343 is now known as Memati_Alemdar
+[2025-10-06 03:59:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 04:00:02] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 04:00:02] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 04:00:02] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 04:00:02] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 04:09:17] restart: Requested by Console
+[2025-10-06 04:09:17] restart: Resource 'scoreboard' restarting...
+[2025-10-06 04:09:17] Stopping scoreboard
+[2025-10-06 04:09:17] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 04:09:17] Starting scoreboard
+[2025-10-06 04:09:17] scoreboard restarted successfully
+[2025-10-06 04:14:02] INFO: WORLDSAVE INCOMING
+[2025-10-06 04:14:02] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 04:14:02] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 04:14:02] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 04:14:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 04:14:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 04:27:06] restart: Requested by Console
+[2025-10-06 04:27:06] restart: Resource 'integration' restarting...
+[2025-10-06 04:27:06] Stopping integration
+[2025-10-06 04:27:06] Resource 'integration' changed, reloading and starting
+[2025-10-06 04:27:06] Starting integration
+[2025-10-06 04:27:06] integration restarted successfully
+[2025-10-06 04:27:08] restart: Requested by Console
+[2025-10-06 04:27:08] restart: Resource 'faction' could not be found
+[2025-10-06 04:27:11] start: Requested by Console
+[2025-10-06 04:27:11] start: Resource 'faction' could not be found
+[2025-10-06 04:27:16] restart: Requested by Console
+[2025-10-06 04:27:16] restart: Resource 'factions' restarting...
+[2025-10-06 04:27:16] Stopping factions
+[2025-10-06 04:27:16] INFO: [Factions] Saving duty allow changes...
+[2025-10-06 04:27:16] INFO: [Factions] Completed in 0 seconds.
+[2025-10-06 04:27:16] Resource 'factions' changed, reloading and starting
+[2025-10-06 04:27:16] Starting factions
+[2025-10-06 04:27:16] factions restarted successfully
+[2025-10-06 04:27:31] restart: Requested by Console
+[2025-10-06 04:27:31] restart: Resource 'scoreboard' restarting...
+[2025-10-06 04:27:31] Stopping scoreboard
+[2025-10-06 04:27:31] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 04:27:31] Starting scoreboard
+[2025-10-06 04:27:31] scoreboard restarted successfully
+[2025-10-06 04:27:41] restart: Requested by Console
+[2025-10-06 04:27:41] restart: Resource 'duty' restarting...
+[2025-10-06 04:27:41] Stopping duty
+[2025-10-06 04:27:41] Starting duty
+[2025-10-06 04:27:41] duty restarted successfully
+[2025-10-06 04:29:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 04:29:21] restart: Requested by Console
+[2025-10-06 04:29:21] restart: Resource 'scoreboard' restarting...
+[2025-10-06 04:29:21] Stopping scoreboard
+[2025-10-06 04:29:21] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 04:29:21] Starting scoreboard
+[2025-10-06 04:29:21] scoreboard restarted successfully
+[2025-10-06 04:35:20] restart: Requested by Console
+[2025-10-06 04:35:20] restart: Resource 'scoreboard' restarting...
+[2025-10-06 04:35:20] Stopping scoreboard
+[2025-10-06 04:35:20] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 04:35:20] Starting scoreboard
+[2025-10-06 04:35:20] scoreboard restarted successfully
+[2025-10-06 04:37:13] restart: Requested by Console
+[2025-10-06 04:37:13] restart: Resource 'scoreboard' restarting...
+[2025-10-06 04:37:13] Stopping scoreboard
+[2025-10-06 04:37:13] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 04:37:13] Starting scoreboard
+[2025-10-06 04:37:13] scoreboard restarted successfully
+[2025-10-06 04:37:42] restart: Requested by Console
+[2025-10-06 04:37:42] restart: Resource 'scoreboard' restarting...
+[2025-10-06 04:37:42] Stopping scoreboard
+[2025-10-06 04:37:42] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 04:37:42] Starting scoreboard
+[2025-10-06 04:37:42] scoreboard restarted successfully
+[2025-10-06 04:38:42] restart: Requested by Console
+[2025-10-06 04:38:42] restart: Resource 'scoreboard' restarting...
+[2025-10-06 04:38:42] Stopping scoreboard
+[2025-10-06 04:38:42] Starting scoreboard
+[2025-10-06 04:38:42] scoreboard restarted successfully
+[2025-10-06 04:43:26] restart: Requested by Console
+[2025-10-06 04:43:26] restart: Resource 'scoreboard' restarting...
+[2025-10-06 04:43:26] Stopping scoreboard
+[2025-10-06 04:43:26] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 04:43:26] Starting scoreboard
+[2025-10-06 04:43:26] scoreboard restarted successfully
+[2025-10-06 04:44:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 04:44:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 04:46:05] restart: Requested by Console
+[2025-10-06 04:46:05] restart: Resource 'scoreboard' restarting...
+[2025-10-06 04:46:05] Stopping scoreboard
+[2025-10-06 04:46:05] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 04:46:05] WARNING: File 'img/police.png' in resource 'scoreboard' is invalid.
+[2025-10-06 04:46:05] Starting scoreboard
+[2025-10-06 04:46:05] scoreboard restarted successfully
+[2025-10-06 04:52:34] restart: Requested by Console
+[2025-10-06 04:52:34] restart: Resource 'scoreboard' restarting...
+[2025-10-06 04:52:34] Stopping scoreboard
+[2025-10-06 04:52:34] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 04:52:34] Starting scoreboard
+[2025-10-06 04:52:34] scoreboard restarted successfully
+[2025-10-06 04:57:56] restart: Requested by Console
+[2025-10-06 04:57:56] restart: Resource 'scoreboard' restarting...
+[2025-10-06 04:57:56] Stopping scoreboard
+[2025-10-06 04:57:56] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 04:57:56] Starting scoreboard
+[2025-10-06 04:57:56] scoreboard restarted successfully
+[2025-10-06 04:59:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 05:00:02] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 05:00:02] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 05:00:02] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 05:00:02] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 05:08:07] restart: Requested by Console
+[2025-10-06 05:08:07] restart: Resource 'scoreboard' restarting...
+[2025-10-06 05:08:07] Stopping scoreboard
+[2025-10-06 05:08:07] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 05:08:07] Starting scoreboard
+[2025-10-06 05:08:07] scoreboard restarted successfully
+[2025-10-06 05:13:39] restart: Requested by Console
+[2025-10-06 05:13:39] restart: Resource 'scoreboard' restarting...
+[2025-10-06 05:13:39] Stopping scoreboard
+[2025-10-06 05:13:39] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 05:13:39] Starting scoreboard
+[2025-10-06 05:13:39] scoreboard restarted successfully
+[2025-10-06 05:14:02] INFO: WORLDSAVE INCOMING
+[2025-10-06 05:14:02] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 05:14:02] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 05:14:02] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 05:14:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 05:14:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 05:29:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 05:44:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 05:44:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 05:59:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 06:00:02] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 06:00:02] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 06:00:02] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 06:00:02] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 06:14:02] INFO: WORLDSAVE INCOMING
+[2025-10-06 06:14:02] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 06:14:02] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 06:14:02] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 06:14:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 06:14:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 06:29:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 06:44:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 06:44:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 06:59:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 07:00:02] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 07:00:02] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 07:00:02] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 07:00:02] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 07:14:02] INFO: WORLDSAVE INCOMING
+[2025-10-06 07:14:02] INFO: Saving insurance data.
+[2025-10-06 07:14:02] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 07:14:02] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 07:14:02] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 07:14:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 07:14:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 07:29:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 07:44:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 07:44:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 07:59:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 08:00:02] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 08:00:02] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 08:00:02] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 08:00:02] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 08:14:02] INFO: WORLDSAVE INCOMING
+[2025-10-06 08:14:02] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 08:14:02] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 08:14:02] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 08:14:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 08:14:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 08:29:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 08:44:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 08:44:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 08:59:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 09:00:02] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 09:00:02] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 09:00:02] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 09:00:02] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 09:14:02] INFO: WORLDSAVE INCOMING
+[2025-10-06 09:14:02] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 09:14:02] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 09:14:02] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 09:14:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 09:14:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 09:29:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 09:44:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 09:44:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 09:59:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 10:00:02] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 10:00:02] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 10:00:02] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 10:00:02] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 10:14:02] INFO: WORLDSAVE INCOMING
+[2025-10-06 10:14:02] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 10:14:02] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 10:14:02] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 10:14:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 10:14:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 10:29:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 10:44:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 10:44:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 10:59:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 11:00:02] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 11:00:02] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 11:00:02] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 11:00:02] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 11:14:02] INFO: WORLDSAVE INCOMING
+[2025-10-06 11:14:02] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 11:14:02] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 11:14:02] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 11:14:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 11:14:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 11:29:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 11:41:26] restart: Requested by Console
+[2025-10-06 11:41:26] restart: Resource 'scoreboard' restarting...
+[2025-10-06 11:41:26] Stopping scoreboard
+[2025-10-06 11:41:26] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 11:41:26] Starting scoreboard
+[2025-10-06 11:41:26] WARNING: Included resource chat-system has changed but unable to reload due to resource already being in use
+[2025-10-06 11:41:26] scoreboard restarted successfully
+[2025-10-06 11:41:39] restart: Requested by Console
+[2025-10-06 11:41:39] restart: Resource 'chat-system' restarting...
+[2025-10-06 11:41:39] Stopping chat-system
+[2025-10-06 11:41:39] Resource 'chat-system' changed, reloading and starting
+[2025-10-06 11:41:39] Starting chat-system
+[2025-10-06 11:41:39] chat-system restarted successfully
+[2025-10-06 11:41:44] restart: Requested by Console
+[2025-10-06 11:41:44] restart: Resource 'scoreboard' restarting...
+[2025-10-06 11:41:44] Stopping scoreboard
+[2025-10-06 11:41:44] Starting scoreboard
+[2025-10-06 11:41:44] scoreboard restarted successfully
+[2025-10-06 11:44:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 11:44:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 11:46:23] restart: Requested by Console
+[2025-10-06 11:46:23] restart: Resource 'scoreboard' restarting...
+[2025-10-06 11:46:23] Stopping scoreboard
+[2025-10-06 11:46:23] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 11:46:23] Starting scoreboard
+[2025-10-06 11:46:23] scoreboard restarted successfully
+[2025-10-06 11:46:46] ERROR: scoreboard\s_tab.lua:32: call: failed to call 'chat-system:sendPM' [string "?"]
+[2025-10-06 11:52:04] restart: Requested by Console
+[2025-10-06 11:52:04] restart: Resource 'scoreboard' restarting...
+[2025-10-06 11:52:04] Stopping scoreboard
+[2025-10-06 11:52:04] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 11:52:04] Starting scoreboard
+[2025-10-06 11:52:04] scoreboard restarted successfully
+[2025-10-06 11:59:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 12:00:02] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 12:00:02] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 12:00:02] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 12:00:02] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 12:04:22] restart: Requested by Console
+[2025-10-06 12:04:22] restart: Resource 'scoreboard' restarting...
+[2025-10-06 12:04:22] Stopping scoreboard
+[2025-10-06 12:04:22] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 12:04:22] Starting scoreboard
+[2025-10-06 12:04:22] scoreboard restarted successfully
+[2025-10-06 12:05:10] ACL: Denied 'Memati_Alemdar' access to command 'debugscript'
+[2025-10-06 12:05:15] debugscript: Incorrect client type for this command
+[2025-10-06 12:12:56] restart: Requested by Console
+[2025-10-06 12:12:56] restart: Resource 'scoreboard' restarting...
+[2025-10-06 12:12:56] Stopping scoreboard
+[2025-10-06 12:12:56] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 12:12:56] Starting scoreboard
+[2025-10-06 12:12:56] scoreboard restarted successfully
+[2025-10-06 12:14:02] INFO: WORLDSAVE INCOMING
+[2025-10-06 12:14:02] INFO: Saving insurance data.
+[2025-10-06 12:14:02] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 12:14:02] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 12:14:02] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 12:14:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 12:14:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 12:21:51] restart: Requested by Console
+[2025-10-06 12:21:51] restart: Resource 'scoreboard' restarting...
+[2025-10-06 12:21:51] Stopping scoreboard
+[2025-10-06 12:21:51] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 12:21:51] Starting scoreboard
+[2025-10-06 12:21:51] scoreboard restarted successfully
+[2025-10-06 12:29:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 12:44:02] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 12:44:02] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 12:50:09] restart: Requested by Console
+[2025-10-06 12:50:09] restart: Resource 'scoreboard' restarting...
+[2025-10-06 12:50:09] Stopping scoreboard
+[2025-10-06 12:50:09] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 12:50:09] Starting scoreboard
+[2025-10-06 12:50:09] scoreboard restarted successfully
+[2025-10-06 12:59:01] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 13:00:01] INFO: [PAYDAY] Server / payAllWages / Ran.
+[2025-10-06 13:00:01] INFO: BIZ-SYSTEM SETTINGS: wageRate=2, limitDebtAmount=6000, warningDebtAmount=5000
+[2025-10-06 13:00:01] INFO: ------------START UPDATING SHOP WAGES------------
+[2025-10-06 13:00:01] INFO: ------------UPDATED 0 SHOP WAGES------------
+[2025-10-06 13:04:10] QUIT: Memati_Alemdar left the game [Quit] 
+[2025-10-06 13:04:10] INFO: [Phone] Memati_Alemdar triggered cancelPhoneCall / Quit / 0
+[2025-10-06 13:14:00] INFO: WORLDSAVE INCOMING
+[2025-10-06 13:14:01] INFO: [SHOP] Saved 0 shops configs to SQL successfully.
+[2025-10-06 13:14:01] INFO: [SHOP] Faction Drop - Restocked products
+[2025-10-06 13:14:01] INFO: [DATA] Saved Faction Drop NPC logs records.
+[2025-10-06 13:14:01] INFO: [SHOP] A forum report has made for 0 Faction Drop NPC(s).
+[2025-10-06 13:14:01] INFO: Server: Fetched 0 stations from db.
+[2025-10-06 13:27:56] CONNECT: Grysseldor connected (IP: 192.168.9.249  Serial: 93DF1DB47281BFB61081853C9F8062B2  Version: 1.6.0-9.23324.0)
+[2025-10-06 13:27:56] JOIN: Grysseldor joined the game (IP: 192.168.9.249)
+[2025-10-06 13:27:56] NICK: Grysseldor is now known as Owl.Player.2317
+[2025-10-06 13:28:24] NICK: Owl.Player.2317 is now known as Memati_Alemdar
+[2025-10-06 13:28:42] restart: Requested by Console
+[2025-10-06 13:28:42] restart: Resource 'scoreboard' restarting...
+[2025-10-06 13:28:42] Stopping scoreboard
+[2025-10-06 13:28:42] Resource 'scoreboard' changed, reloading and starting
+[2025-10-06 13:28:42] Starting scoreboard
+[2025-10-06 13:28:42] scoreboard restarted successfully
+[2025-10-06 13:29:01] INFO: Server: Fetched 0 stations from db.
